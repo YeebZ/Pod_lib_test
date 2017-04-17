@@ -1,0 +1,22 @@
+{
+  "name": "Pod_lib_test",
+  "version": "0.1.0",
+  "summary": "good boy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ahurey/Pod_lib_test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ahurey": "297193930@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ahurey/Pod_lib_test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod_lib_test/Classes/**/*"
+}

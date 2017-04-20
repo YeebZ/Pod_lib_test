@@ -1,6 +1,0 @@
-framework module Pod_lib_test {
-  umbrella header "Pod_lib_test-umbrella.h"
-
-  export *
-  module * { export * }
-}

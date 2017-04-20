@@ -1,14 +1,14 @@
 use_frameworks!
 
-source 'https://github.com/YeebZ/testPod'
+source 'https://github.com/YeebZ/MyPodTest.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Pod_lib_test_Example' do
   pod 'Pod_lib_test', :path => '../'
 
-  target 'Pod_lib_test_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+#  target 'Pod_lib_test_Tests' do
+#    inherit! :search_paths
+#
+#    pod 'FBSnapshotTestCase'
+#  end
 end

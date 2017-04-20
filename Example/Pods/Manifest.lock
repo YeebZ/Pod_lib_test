@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Pod_lib_test (0.1.0)
+  - Pod_lib_test (3.0):
+    - Pod_lib_test/Model (= 3.0)
+    - Pod_lib_test/Test (= 3.0)
+  - Pod_lib_test/Model (3.0)
+  - Pod_lib_test/Test (3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Pod_lib_test: c45a55fb50068b7cf4299c7f7a70acde498eb670
+  Pod_lib_test: 8587a0e589174254a1bb4a417da0b674af564469
 
-PODFILE CHECKSUM: 6a365ff810ff272880624d26ea94257c5b08f825
+PODFILE CHECKSUM: 0833203e35f82325268c145d40ed1980abb36722
 
 COCOAPODS: 1.2.0

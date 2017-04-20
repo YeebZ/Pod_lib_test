@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "User.h"
 #import "TestViewController.h"
 
 FOUNDATION_EXPORT double Pod_lib_testVersionNumber;

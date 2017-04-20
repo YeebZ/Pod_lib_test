@@ -1,9 +1,9 @@
 {
   "name": "Pod_lib_test",
-  "version": "0.1.0",
+  "version": "3.0",
   "summary": "good boy.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ahurey/Pod_lib_test",
+  "homepage": "https://github.com/ahurey/Pod_lib_test.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,21 @@
   },
   "source": {
     "git": "https://github.com/ahurey/Pod_lib_test.git",
-    "tag": "0.1.0"
+    "tag": "3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Pod_lib_test/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Test",
+      "source_files": "Pod_lib_test/Classes/Test/**/*",
+      "public_header_files": "Pod_lib_test/Classes/Test/**/*.h"
+    },
+    {
+      "name": "Model",
+      "source_files": "Pod_lib_test/Classes/Model/**/*",
+      "public_header_files": "Pod_lib_test/Classes/Model/**/*.h"
+    }
+  ]
 }

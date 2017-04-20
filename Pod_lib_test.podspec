@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'Pod_lib_test'
-s.version          = '2.0'
+s.version          = '3.0'
 s.summary          = 'good boy.'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,14 @@ s.source           = { :git => 'https://github.com/ahurey/Pod_lib_test.git', :ta
 
 s.ios.deployment_target = '8.0'
 
-s.subspec 'Test' do |test|
-test.source_files = 'Pod_lib_test/Classes/Test/**/*'
-test.public_header_files = 'Pod_lib_test/Classes/Model/**/*.h'
+    s.subspec 'Test' do |test|
+    test.source_files = 'Pod_lib_test/Classes/Test/**/*'
+    test.public_header_files = 'Pod_lib_test/Classes/Test/**/*.h'
 end
 
-s.subspec 'Model' do |model|
-model.source_files = 'Pod_lib_test/Classes/Model/**/*'
-model.public_header_files = 'Pod_lib_test/Classes/Model/**/*.h'
+    s.subspec 'Model' do |model|
+    model.source_files = 'Pod_lib_test/Classes/Model/**/*'
+    model.public_header_files = 'Pod_lib_test/Classes/Model/**/*.h'
 end
 
 #s.source_files = 'Pod_lib_test/Classes/**/*'
@@ -48,5 +48,5 @@ end
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
+# s.dependency 'MyPodTest', '~> 0.2.0'
 end

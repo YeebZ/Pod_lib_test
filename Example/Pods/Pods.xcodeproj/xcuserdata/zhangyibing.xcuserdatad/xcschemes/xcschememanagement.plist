@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MyPodTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pod_lib_test.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1CF4167E0065022A6A0F65EE6285E689</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>34CD2E3428AB802BACA62286FF5074B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37D19B762BA4A2FEB0121C0320943688</key>
+		<key>B8BFDB5309F1AA1E561B140F48FE76A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BDBE1AB5DB97597E5D3AA3297895D108</key>
+		<key>FBAF912B9775216466E7D41F59FA2F81</key>
 		<dict>
 			<key>primary</key>
 			<true/>

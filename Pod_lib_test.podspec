@@ -43,7 +43,7 @@ end
 s.source_files = 'Pod_lib_test/Classes/**/*.xib'
 
 s.resource_bundles = {
-'Pod_lib_test' => ['Pod_lib_test/Assets/*.{png,xib}']
+'Pod_lib_test' => ['Pod_lib_test/Assets/*.png']
 }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'

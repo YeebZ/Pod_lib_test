@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'Pod_lib_test'
-s.version          = '3.0'
+s.version          = '4.0'
 s.summary          = 'good boy.'
 
 # This description is used to generate tags and improve search results.
@@ -40,11 +40,11 @@ end
     model.public_header_files = 'Pod_lib_test/Classes/Model/**/*.h'
 end
 
-#s.source_files = 'Pod_lib_test/Classes/**/*'
+s.source_files = 'Pod_lib_test/Classes/**/*.xib'
 
-# s.resource_bundles = {
-#   'Pod_lib_test' => ['Pod_lib_test/Assets/*.png']
-# }
+s.resource_bundles = {
+'Pod_lib_test' => ['Pod_lib_test/Assets/*.{png,xib}']
+}
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
